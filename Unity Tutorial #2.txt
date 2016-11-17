@@ -1,0 +1,1 @@
+The object I created is a gold cube that comes once during gameplay and is worth 100 points to the user.  It moves a little bit faster than the asteroids.

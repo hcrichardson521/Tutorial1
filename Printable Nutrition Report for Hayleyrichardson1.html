@@ -1,0 +1,1109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.myfitnesspal.com/reports/printable_diary -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./Printable Nutrition Report for Hayleyrichardson1_files/24ade29801"></script><script src="./Printable Nutrition Report for Hayleyrichardson1_files/nr-768.min.js"></script><script type="text/javascript" async="" src="./Printable Nutrition Report for Hayleyrichardson1_files/analytics.js"></script><script async="" src="./Printable Nutrition Report for Hayleyrichardson1_files/gtm.js"></script><script type="text/javascript" async="" src="./Printable Nutrition Report for Hayleyrichardson1_files/ga.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"24ade29801","applicationID":"4152250","transactionName":"dA5YQkBeD1tcFx0TBEcOREJBHhNFUAtGAANbBGlSW1ARTg==","queueTime":0,"applicationTime":124,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-768.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQACVVNADAIFVlNXBw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+
+
+	<title>
+		Printable Nutrition Report for Hayleyrichardson1
+	</title>
+
+  <link href="./Printable Nutrition Report for Hayleyrichardson1_files/style-f655fdd6b72ded7033e235c46b21e188.css" media="all" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  var variant = 'false' || null;
+  var doTrack = false;
+
+  _gaq.push(['_setAccount', 'UA-94924-2']);
+  
+  _gaq.push(['_setVar', 'member']);
+  if(typeof(_vis_opt_GA_track) == "function") { _vis_opt_GA_track(); }
+
+  _gaq.push(['_setCustomVar', 1, 'status', 'logged_in', 1]);
+
+  // Make sure this GUID is in the 'on' or 'control' variant
+  if (doTrack && variant !== null && variant !== 'false') {
+    _gaq.push(['_setCustomVar', 5, 'mobile_optimized_page', variant, 2]);
+  }
+
+  _gaq.push(['_setDomainName’, ‘auto']);
+
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+</head>
+
+<body class="printable" id="printable-diary">
+  <!-- Google Tag Manager -->
+<script type="text/javascript">
+  dataLayer = [];
+</script>
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-TDCVCS"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TDCVCS');</script>
+<!-- End Google Tag Manager -->
+
+  <!--[if lte IE 7]><div id="ie"><![endif]-->
+  <!--[if IE 6]><div id="ie6"><![endif]-->
+
+	<div id="wrap">
+
+		<div id="header">
+
+			<div id="logo"><a href="http://www.myfitnesspal.com/" title="Calorie Counter">{:calorie=&gt;"Calorie Counter", :kilojoule=&gt;"Kilojoule Counter"}</a></div>
+
+			<h1 class="main-title-2-no-border">
+				Printable Diary for <strong>Hayleyrichardson1</strong>
+			</h1>
+
+		</div><!-- / #header -->
+
+		<div id="content">
+
+
+      
+
+			<div class="change-report">
+
+        <form accept-charset="UTF-8" action="./Printable Nutrition Report for Hayleyrichardson1_files/Printable Nutrition Report for Hayleyrichardson1.html" class="change-range form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="IVVlWOE5rI7hDDdP2h1Lu/HMAk0D8SWkWoXn1Jw2evk="></div>
+
+          <input id="username" name="username" type="hidden" value="">
+
+					<ol class="fieldset">
+
+						<li class="field">
+
+							<div class="range">
+
+								<label class="range">From:</label>
+
+                <input class="textfield2" id="from" name="from" type="text" value="2015-11-29">
+                <input type="hidden" value="2015-11-29" name="ds1" id="ds1" class="hasDatepicker"><img class="ui-datepicker-trigger" src="./Printable Nutrition Report for Hayleyrichardson1_files/ico_calendar-d609fc988a2eda9107f63b595fd90464.gif" alt="" title="">
+
+							</div>
+
+							<ul class="show">
+
+								<li class="show">
+									<label>Show:</label>
+								</li>
+								<li>
+								  <input checked="checked" class="checkbox" id="show_food_diary" name="show_food_diary" type="checkbox" value="1">
+									<label for="show_food_diary">Food Diary</label>
+								</li>
+
+								<li>
+								  <input checked="checked" class="checkbox" id="show_food_notes" name="show_food_notes" type="checkbox" value="1">
+									<label for="show_food_notes">Food Notes</label>
+								</li>
+
+							</ul>
+
+						</li>
+
+						<li class="field">
+
+							<div class="range">
+
+								<label class="range">To:</label>
+
+                <input class="textfield2" id="to" name="to" type="text" value="2015-12-01">
+                <input type="hidden" value="2015-12-01" name="ds2" id="ds2" class="hasDatepicker"><img class="ui-datepicker-trigger" src="./Printable Nutrition Report for Hayleyrichardson1_files/ico_calendar-d609fc988a2eda9107f63b595fd90464.gif" alt="" title="">
+
+							</div>
+
+							<ul class="show">
+
+								<li>
+								  <input checked="checked" class="checkbox" id="show_exercise_diary" name="show_exercise_diary" type="checkbox" value="1">
+									<label for="show_exercise_diary">Exercise Diary</label>
+								</li>
+
+								<li>
+								  <input checked="checked" class="checkbox" id="show_exercise_notes" name="show_exercise_notes" type="checkbox" value="1">
+									<label for="show_exercise_notes">Exercise notes</label>
+								</li>
+
+							</ul>
+
+						</li>
+
+					</ol>
+
+					<p class="submit">
+						<input class="button" type="submit" value="change report">
+					</p>
+
+</form>
+
+			</div><!-- /.change-report -->
+
+      		<h2 class="main-title-2" id="date">November 29, 2015</h2>
+
+
+<table class="table0" id="food" width="800">
+	
+	<colgroup>
+		<col class="col-1">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+	</colgroup>
+
+	<thead>
+		<tr>
+			<td class="first">Foods</td>
+			<td>Calories</td>
+			<td>Carbs</td>
+			<td>Fat</td>
+			<td>Protein</td>
+			<td>Cholest</td>
+			<td>Sodium</td>
+			<td>Sugars</td>
+			<td class="last">Fiber</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+
+		  <tr class="title">
+  			<td class="first last" colspan="9">Breakfast</td>
+  		</tr>
+			<tr>
+				<td class="first">Log Cabin - Original - Syrup, 0.25 cup (60mL)</td>
+				<td>200</td>
+				<td>53g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>140mg</td>
+				<td>26g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Homemade - French Toast - White Bread &amp; Egg Substitute, 2 slices</td>
+				<td>320</td>
+				<td>16g</td>
+				<td>7g</td>
+				<td>5g</td>
+				<td>0mg</td>
+				<td>311mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Lunch</td>
+  		</tr>
+			<tr>
+				<td class="first">Homemade - Tuna Melt Sandwich, 1 sandwich 1/2 can of tuna</td>
+				<td>190</td>
+				<td>13g</td>
+				<td>16g</td>
+				<td>16g</td>
+				<td>25mg</td>
+				<td>675mg</td>
+				<td>3g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Archer Farms - Roasted Red Pepper Hummus, 28 g</td>
+				<td>60</td>
+				<td>5g</td>
+				<td>4g</td>
+				<td>2g</td>
+				<td>0mg</td>
+				<td>115mg</td>
+				<td>1g</td>
+				<td class="last">2g</td>
+			</tr>
+			<tr>
+				<td class="first">Chips - Stacy's Simply Naked Pita Chips, 1 oz (28g/About 10 chips)</td>
+				<td>130</td>
+				<td>19g</td>
+				<td>5g</td>
+				<td>3g</td>
+				<td>0mg</td>
+				<td>270mg</td>
+				<td>0g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Winco Foods - Chocolate Chip Cookie, 1 cookie</td>
+				<td>100</td>
+				<td>15g</td>
+				<td>4g</td>
+				<td>1g</td>
+				<td>5mg</td>
+				<td>70mg</td>
+				<td>9g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Costco - White Chocolate Chip Macadamia Nut Cookie, 1 cookie</td>
+				<td>210</td>
+				<td>27g</td>
+				<td>11g</td>
+				<td>3g</td>
+				<td>3mg</td>
+				<td>120mg</td>
+				<td>18g</td>
+				<td class="last">0g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Dinner</td>
+  		</tr>
+			<tr>
+				<td class="first">Miguel's Jr. - Chicken Tostada, 1/2 cup beans, chicken, tortilla</td>
+				<td>560</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>0mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Daisy - Sour Cream, 2 Tbsp (30g)</td>
+				<td>60</td>
+				<td>1g</td>
+				<td>5g</td>
+				<td>1g</td>
+				<td>20mg</td>
+				<td>15mg</td>
+				<td>1g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Mexican cheese - Shredded Cheese, 0.25 cup</td>
+				<td>110</td>
+				<td>1g</td>
+				<td>9g</td>
+				<td>7g</td>
+				<td>25mg</td>
+				<td>180mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Generic - Raw Diced Tomatoes, 3 tbsp(s)</td>
+				<td>6</td>
+				<td>1g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>2mg</td>
+				<td>1g</td>
+				<td class="last">0g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Snacks</td>
+  		</tr>
+			<tr>
+				<td class="first">Bayer - Women's One A Day Multivitamin, 1 vitamin</td>
+				<td>0</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>0mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+		
+	</tbody>
+	
+	<tfoot>
+	  <tr>
+  		<td class="first">TOTAL:</td>
+  		<td>1,946</td>
+  		<td>151g</td>
+  		<td>61g</td>
+  		<td>38g</td>
+  		<td>78mg</td>
+  		<td>1,898mg</td>
+  		<td>59g</td>
+  		<td class="last">3g</td>
+  	</tr>
+	</tfoot>
+		
+</table>
+
+
+
+
+
+
+<table class="table0" id="excercise">
+	
+	<colgroup>
+		<col class="col-1">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+	</colgroup>
+
+	<thead>
+		<tr>
+			<td class="first">Exercises</td>
+			<td>Calories</td>
+			<td>Minutes</td>
+			<td>Sets</td>
+			<td>Reps</td>
+			<td class="last">Weight</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+	  
+  		<tr class="title">
+  			<td class="first last" colspan="6">Cardiovascular</td>
+  		</tr>
+  		<tr>
+  			<td class="first">Running (jogging), 7.5 mph (8 min mile)</td>
+  			<td>348</td>
+  			<td>30</td>
+  			<td class="last" colspan="3">&nbsp;</td>
+  		</tr>
+  	
+	</tbody>
+	
+	<tfoot>
+		<tr>
+  		<td class="first">TOTALS:</td>
+  		<td>348</td>
+  		<td>30</td>
+  		<td>0</td>
+  		<td>0</td>
+  		<td class="last">0</td>
+		</tr>
+	</tfoot>
+	
+</table>
+
+
+
+
+
+
+
+
+
+
+
+      		<h2 class="main-title-2" id="date">November 30, 2015</h2>
+
+
+<table class="table0" id="food" width="800">
+	
+	<colgroup>
+		<col class="col-1">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+	</colgroup>
+
+	<thead>
+		<tr>
+			<td class="first">Foods</td>
+			<td>Calories</td>
+			<td>Carbs</td>
+			<td>Fat</td>
+			<td>Protein</td>
+			<td>Cholest</td>
+			<td>Sodium</td>
+			<td>Sugars</td>
+			<td class="last">Fiber</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+
+		  <tr class="title">
+  			<td class="first last" colspan="9">Breakfast</td>
+  		</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Cinnamon Raisin Bagel, 1 Bagel</td>
+				<td>420</td>
+				<td>82g</td>
+				<td>3g</td>
+				<td>12g</td>
+				<td>0mg</td>
+				<td>480mg</td>
+				<td>6g</td>
+				<td class="last">3g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Creamed Cottage Cheese, 0.25 Cup</td>
+				<td>60</td>
+				<td>2g</td>
+				<td>3g</td>
+				<td>7g</td>
+				<td>10mg</td>
+				<td>220mg</td>
+				<td>2g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Strawberry Non Fat Yogurt, 12 ounces</td>
+				<td>220</td>
+				<td>42g</td>
+				<td>0g</td>
+				<td>12g</td>
+				<td>8mg</td>
+				<td>190mg</td>
+				<td>32g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Granola, 28 g</td>
+				<td>130</td>
+				<td>19g</td>
+				<td>6g</td>
+				<td>1g</td>
+				<td>15mg</td>
+				<td>85mg</td>
+				<td>11g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Banana - (One) - Banana - (One), 118 grams</td>
+				<td>105</td>
+				<td>27g</td>
+				<td>0g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>1mg</td>
+				<td>14g</td>
+				<td class="last">3g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Lunch</td>
+  		</tr>
+			<tr>
+				<td class="first">Sodexo Workplace - Chipotle Grilled Chicken, 1 Entree</td>
+				<td>280</td>
+				<td>26g</td>
+				<td>7g</td>
+				<td>27g</td>
+				<td>60mg</td>
+				<td>210mg</td>
+				<td>4g</td>
+				<td class="last">2g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Sweet Potatoes -Yams, 0.5 Potato</td>
+				<td>110</td>
+				<td>26g</td>
+				<td>0g</td>
+				<td>2g</td>
+				<td>0mg</td>
+				<td>40mg</td>
+				<td>9g</td>
+				<td class="last">4g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo (Campus, Heathcare) - Green Beans, 4 oz Spoodle</td>
+				<td>20</td>
+				<td>4g</td>
+				<td>0g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>0mg</td>
+				<td>1g</td>
+				<td class="last">2g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Chocolate Chip Cookie, 1 Cookie</td>
+				<td>170</td>
+				<td>24g</td>
+				<td>8g</td>
+				<td>2g</td>
+				<td>10mg</td>
+				<td>120mg</td>
+				<td>15g</td>
+				<td class="last">1g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Dinner</td>
+  		</tr>
+			<tr>
+				<td class="first">Sodexo - Penne Pasta, 113 g</td>
+				<td>200</td>
+				<td>38g</td>
+				<td>3g</td>
+				<td>7g</td>
+				<td>0mg</td>
+				<td>45mg</td>
+				<td>1g</td>
+				<td class="last">2g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Spaghetti Sauce With Tomato Bits, 2 oz (63 g)</td>
+				<td>35</td>
+				<td>7g</td>
+				<td>0g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>240mg</td>
+				<td>4g</td>
+				<td class="last">2g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Pepperoni Pizza, 1 slice</td>
+				<td>280</td>
+				<td>33g</td>
+				<td>10g</td>
+				<td>15g</td>
+				<td>25mg</td>
+				<td>710mg</td>
+				<td>3g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Baby Carrots Salad Bar, 1 oz</td>
+				<td>10</td>
+				<td>2g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>20mg</td>
+				<td>1g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Healthcare - Leaf Spinach, 3 oz</td>
+				<td>40</td>
+				<td>4g</td>
+				<td>2g</td>
+				<td>3g</td>
+				<td>0mg</td>
+				<td>170mg</td>
+				<td>0g</td>
+				<td class="last">3g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo (Campus, Heathcare) - Beets, 3 oz</td>
+				<td>35</td>
+				<td>6g</td>
+				<td>1g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>170mg</td>
+				<td>5g</td>
+				<td class="last">2g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Tomato, Fresh, 1 oz</td>
+				<td>5</td>
+				<td>1g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>0mg</td>
+				<td>1g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Soft Serve Ice Cream - Vanilla Ice Cream, 1 cup</td>
+				<td>384</td>
+				<td>38g</td>
+				<td>22g</td>
+				<td>7g</td>
+				<td>158mg</td>
+				<td>106mg</td>
+				<td>37g</td>
+				<td class="last">1g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Snacks</td>
+  		</tr>
+			<tr>
+				<td class="first">Bayer - One A Day Women's, 1 tablet</td>
+				<td>0</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>0mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Goldfish pouch - Goldfish, 1 pouch</td>
+				<td>130</td>
+				<td>19g</td>
+				<td>5g</td>
+				<td>3g</td>
+				<td>5mg</td>
+				<td>240mg</td>
+				<td>1g</td>
+				<td class="last">1g</td>
+			</tr>
+		
+	</tbody>
+	
+	<tfoot>
+	  <tr>
+  		<td class="first">TOTAL:</td>
+  		<td>2,634</td>
+  		<td>400g</td>
+  		<td>70g</td>
+  		<td>102g</td>
+  		<td>291mg</td>
+  		<td>3,047mg</td>
+  		<td>147g</td>
+  		<td class="last">29g</td>
+  	</tr>
+	</tfoot>
+		
+</table>
+
+
+
+
+
+
+<table class="table0" id="excercise">
+	
+	<colgroup>
+		<col class="col-1">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+	</colgroup>
+
+	<thead>
+		<tr>
+			<td class="first">Exercises</td>
+			<td>Calories</td>
+			<td>Minutes</td>
+			<td>Sets</td>
+			<td>Reps</td>
+			<td class="last">Weight</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+	  
+  		<tr class="title">
+  			<td class="first last" colspan="6">Cardiovascular</td>
+  		</tr>
+  		<tr>
+  			<td class="first">Running (jogging), 7.5 mph (8 min mile)</td>
+  			<td>395</td>
+  			<td>35</td>
+  			<td class="last" colspan="3">&nbsp;</td>
+  		</tr>
+  	
+	</tbody>
+	
+	<tfoot>
+		<tr>
+  		<td class="first">TOTALS:</td>
+  		<td>395</td>
+  		<td>35</td>
+  		<td>0</td>
+  		<td>0</td>
+  		<td class="last">0</td>
+		</tr>
+	</tfoot>
+	
+</table>
+
+
+
+
+
+
+
+
+
+
+
+      		<h2 class="main-title-2" id="date">December 1, 2015</h2>
+
+
+<table class="table0" id="food" width="800">
+	
+	<colgroup>
+		<col class="col-1">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+	</colgroup>
+
+	<thead>
+		<tr>
+			<td class="first">Foods</td>
+			<td>Calories</td>
+			<td>Carbs</td>
+			<td>Fat</td>
+			<td>Protein</td>
+			<td>Cholest</td>
+			<td>Sodium</td>
+			<td>Sugars</td>
+			<td class="last">Fiber</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+
+		  <tr class="title">
+  			<td class="first last" colspan="9">Breakfast</td>
+  		</tr>
+			<tr>
+				<td class="first">Sodexo Healthcare - Sliced Sesame Seed Bagel, 1 Serving</td>
+				<td>310</td>
+				<td>55g</td>
+				<td>5g</td>
+				<td>11g</td>
+				<td>0mg</td>
+				<td>550mg</td>
+				<td>3g</td>
+				<td class="last">3g</td>
+			</tr>
+			<tr>
+				<td class="first">Panera - Plain Cream Cheese, 2 Tbsps</td>
+				<td>180</td>
+				<td>2g</td>
+				<td>18g</td>
+				<td>3g</td>
+				<td>55mg</td>
+				<td>210mg</td>
+				<td>1g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Healthcare - Strawberry Yogurt Parfait, 1 Parfait</td>
+				<td>280</td>
+				<td>58g</td>
+				<td>4g</td>
+				<td>8g</td>
+				<td>5mg</td>
+				<td>140mg</td>
+				<td>34g</td>
+				<td class="last">3g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Italian Breakfast Bowl, 0.25 Serving</td>
+				<td>78</td>
+				<td>3g</td>
+				<td>5g</td>
+				<td>5g</td>
+				<td>93mg</td>
+				<td>148mg</td>
+				<td>1g</td>
+				<td class="last">0g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Lunch</td>
+  		</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Pork Carnitas Soft Taco, 1 Taco</td>
+				<td>210</td>
+				<td>19g</td>
+				<td>11g</td>
+				<td>8g</td>
+				<td>25mg</td>
+				<td>350mg</td>
+				<td>2g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Mexican Rice (1), 1 scoop</td>
+				<td>70</td>
+				<td>12g</td>
+				<td>1g</td>
+				<td>1g</td>
+				<td>2mg</td>
+				<td>190mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Healthcare - Leaf Spinach, 6 oz</td>
+				<td>80</td>
+				<td>8g</td>
+				<td>4g</td>
+				<td>6g</td>
+				<td>0mg</td>
+				<td>340mg</td>
+				<td>0g</td>
+				<td class="last">6g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Double Chocolate Chip Cookie, 1 cookie</td>
+				<td>170</td>
+				<td>25g</td>
+				<td>8g</td>
+				<td>2g</td>
+				<td>13mg</td>
+				<td>135mg</td>
+				<td>16g</td>
+				<td class="last">1g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Dinner</td>
+  		</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Chocolate Chip Cookie, 1 Cookie</td>
+				<td>170</td>
+				<td>24g</td>
+				<td>8g</td>
+				<td>2g</td>
+				<td>10mg</td>
+				<td>120mg</td>
+				<td>15g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - White Chocolate Macadamia Nut Cookie, 1 Cookie</td>
+				<td>200</td>
+				<td>23g</td>
+				<td>11g</td>
+				<td>2g</td>
+				<td>35mg</td>
+				<td>170mg</td>
+				<td>15g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo Campus - Meatloaf - 4 oz, 4 oz</td>
+				<td>200</td>
+				<td>10g</td>
+				<td>12g</td>
+				<td>12g</td>
+				<td>85mg</td>
+				<td>240mg</td>
+				<td>2g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo (Healthcare, Campus) - Mashed Potato, 2 oz</td>
+				<td>45</td>
+				<td>9g</td>
+				<td>1g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>48mg</td>
+				<td>1g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo (Campus, Heathcare) - Steamed Fresh Baby Carrots, 4 oz</td>
+				<td>40</td>
+				<td>9g</td>
+				<td>0g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>90mg</td>
+				<td>5g</td>
+				<td class="last">3g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Pepperoni Pizza, 0.5 slice</td>
+				<td>140</td>
+				<td>17g</td>
+				<td>5g</td>
+				<td>8g</td>
+				<td>13mg</td>
+				<td>355mg</td>
+				<td>2g</td>
+				<td class="last">1g</td>
+			</tr>
+			<tr>
+				<td class="first">Sodexo - Brown Gravy, 1 Ladle</td>
+				<td>25</td>
+				<td>4g</td>
+				<td>1g</td>
+				<td>1g</td>
+				<td>0mg</td>
+				<td>320mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+		  <tr class="title">
+  			<td class="first last" colspan="9">Snacks</td>
+  		</tr>
+			<tr>
+				<td class="first">Bayer - Women's One A Day Multivitamin, 1 vitamin</td>
+				<td>0</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0g</td>
+				<td>0mg</td>
+				<td>0mg</td>
+				<td>0g</td>
+				<td class="last">0g</td>
+			</tr>
+		
+	</tbody>
+	
+	<tfoot>
+	  <tr>
+  		<td class="first">TOTAL:</td>
+  		<td>2,198</td>
+  		<td>278g</td>
+  		<td>94g</td>
+  		<td>71g</td>
+  		<td>336mg</td>
+  		<td>3,406mg</td>
+  		<td>97g</td>
+  		<td class="last">22g</td>
+  	</tr>
+	</tfoot>
+		
+</table>
+
+
+
+
+
+
+<table class="table0" id="excercise">
+	
+	<colgroup>
+		<col class="col-1">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+		<col class="col-2">
+	</colgroup>
+
+	<thead>
+		<tr>
+			<td class="first">Exercises</td>
+			<td>Calories</td>
+			<td>Minutes</td>
+			<td>Sets</td>
+			<td>Reps</td>
+			<td class="last">Weight</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+	  
+  		<tr class="title">
+  			<td class="first last" colspan="6">Cardiovascular</td>
+  		</tr>
+  		<tr>
+  			<td class="first">Running (jogging), 7.5 mph (8 min mile)</td>
+  			<td>322</td>
+  			<td>30</td>
+  			<td class="last" colspan="3">&nbsp;</td>
+  		</tr>
+  	
+	</tbody>
+	
+	<tfoot>
+		<tr>
+  		<td class="first">TOTALS:</td>
+  		<td>322</td>
+  		<td>30</td>
+  		<td>0</td>
+  		<td>0</td>
+  		<td class="last">0</td>
+		</tr>
+	</tfoot>
+	
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+		</div><!-- / #content -->
+
+	</div><!-- / #wrap -->
+
+  <!--[if lte IE 7]></div><![endif]-->
+	<!--[if IE 6]></div><![endif]-->
+
+
+  <link rel="stylesheet" href="./Printable Nutrition Report for Hayleyrichardson1_files/jquery-ui.css">
+  <script src="./Printable Nutrition Report for Hayleyrichardson1_files/jquery-1.9.1.js"></script>
+  <script src="./Printable Nutrition Report for Hayleyrichardson1_files/jquery-ui.js"></script>
+  <script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(function() {
+      function changeStartDate(new_date) {
+        $('#from').val(new_date);
+      }
+      function changeEndDate(new_date) {
+        $('#to').val(new_date);
+      }
+
+      $("#ds1").datepicker({
+        buttonImage:"http://d34yn14tavczy0.cloudfront.net/assets/ico_calendar-d609fc988a2eda9107f63b595fd90464.gif",
+        buttonImageOnly:true,
+        buttonText:"",
+        showOn: 'button',
+        defaultDate: $("#date_selector1").attr("value"),
+        dateFormat: 'yy-mm-dd',
+        monthNames: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+        dayNames: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        dayNamesMin: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+        onSelect:changeStartDate
+      });
+      $("#ds2").datepicker({
+        buttonImage:"http://d34yn14tavczy0.cloudfront.net/assets/ico_calendar-d609fc988a2eda9107f63b595fd90464.gif",
+        buttonImageOnly:true,
+        buttonText:"",
+        showOn: 'button',
+        defaultDate: $("#date_selector2").attr("value"),
+        dateFormat: 'yy-mm-dd',
+        monthNames: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+        dayNames: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        dayNamesMin: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+        onSelect:changeEndDate
+      });
+
+    });
+    //]]>
+  </script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><div style="display: none; visibility: hidden;"><script type="text/javascript">window.addEventListener("beforeunload",function(){window.dataLayer.push({event:"unloadEvent",timeonpage:(new Date).getTime()-google_tag_manager["GTM-TDCVCS"].macro('gtm1449347479855')})});</script></div></body></html>
